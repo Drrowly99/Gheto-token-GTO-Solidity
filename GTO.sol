@@ -5,7 +5,7 @@ pragma solidity ^0.8.4;
 contract GhetoToken {
     string public name = "Gheto Token";
     string public symbol = "GTO";
-    uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
+    uint256 public totalSupply = 100000000000000000000000; // 1 million tokens
     uint8 public decimals = 18;
     
     /**
@@ -68,7 +68,7 @@ contract GhetoToken {
      *
      * Emits an {Approval} event.
      */
-
+ 
     function approve(address _spender, uint256 _value)
         public
         returns (bool success)
